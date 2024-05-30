@@ -19,8 +19,8 @@ function Control(props) {
       <button className="new-game" onClick={handleNewGame}>
         NEW GAME
       </button>
-      <img src={`src/assets/images/dice-${dice1}.png`} alt="" />
-      <img src={`src/assets/images/dice-${dice2}.png`} alt="" />
+      <img src={`../../assets/images/dice-${dice1}.png`} alt="" />
+      <img src={`../../assets/images/dice-${dice2}.png`} alt="" />
 
       <button className="roll-dice" onClick={handleRollDice}>
         ROLL DICE
